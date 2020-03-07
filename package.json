@@ -1,0 +1,24 @@
+{
+  "name": "starwarsapi",
+  "version": "1.0.0",
+  "description": "Star Wars API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryhangbrunello/starwarsapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryhangbrunello/starwarsapi/issues"
+  },
+  "homepage": "https://github.com/ryhangbrunello/starwarsapi#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  }
+}
