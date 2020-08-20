@@ -35,6 +35,15 @@ app.get('/films', async (req, res, next) => {
     }
 });
 
+app.get('/helth', async (req, res, next) => {
+    try {
+        return res.send(new Date()).status(200);
+    } catch (error) {
+        console.error(error);
+        next(error);
+    }
+});
+
 app.get('/films/:id', async (req, res, next) => {
     try {
         const filmId = req.params.id;
